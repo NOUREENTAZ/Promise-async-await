@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+
+<body>
+    <h3>Q1.Write one example explaining how you can write a callback function.</h3>
+
+    <h2>callback function</h2>
+    <p>A callback function in javascript a function which is to be executed after (mainDis) another function (mainCalc) has finished execution</p>
+
+    <p>The result of the calculation is:</p>
+    <p id="first"></p>
+
+    <hr>
+
+    <h3>Q2.Write a callback function to print numbers from 1 to 7, in which 1 should be printed after 1 sec, 2 should be printed after 2 sec, 3 should be printed after 3 sec, and so on. Explain callback hell.<br> Numbers
+        <br> 1
+        <br> 2
+        <br> 3
+        <br> 4
+        <br> 5
+        <br> 6
+        <br> 7
+        <br>
+    </h3>
+    <p>Callback Hell: Callback Hell is essentially nested callbacks stacked below one another forming a pyramid structure. Every callback depends/waits for the previous callback, thereby making a pyramid structure that affects the readability and maintainability
+        of the code. </p>
+
+    <hr>
+
+
+    <h3>Q3.Write the promise function to print numbers from 1 to 7, in which 1 should be printed after 1 sec, 2 should be printed after 2 sec, 3 should be printed after 3 sec, and so on. Numbers
+
+        <br> 1
+        <br> 2
+        <br> 3
+        <br> 4
+        <br> 5
+        <br> 6
+        <br> 7
+
+
+    </h3>
+    <p> result will show in console tab</p>
+    <hr>
+
+    <h3>Q4.Create a promise function accepting an argument, if yes is passed to the function then it should go to resolved state and print Promise Resolved, and if nothing is passed then it should go to reject the state and catch the error and print Promise
+        Rejected </h3>
+
+    <hr>
+
+    <h3>Q5.Create examples to explain callback function</h3>
+    <p> In the example, the second function does not wait for the first function to be complete. However, if you want to wait for the result of the previous function call before the next statement is executed, you can use a callback function. For example</p>
+
+    <hr>
+
+    <h3>Q6.Create examples to explain callback hell function</h3>
+    <div class="container">
+        <h3 class="word">I</h3>
+        <h3 class="word">am</h3>
+        <h3 class="word"> Prepbytes Student</h3>
+    </div>
+    <hr>
+
+
+    <h3>Q7.Create examples to explain promises function</h3>
+    <P> Syntax</P>
+    <p>let promise = new Promise(function(resolve, reject){ //do something });
+    </p>
+    <p>
+        A promise may have one of three states.
+        <ol>Pending</ol>
+        <ol>Resolve</ol>
+        <ol>Rejected</ol>
+        A promise starts in a pending state. That means the process is not complete. If the operation is successful, the process ends in a Resolve state. And, if an error occurs, the process ends in a rejected state.
+    </p>
+    <p> Example Shown in console window line no 4 success</p>
+
+    <hr>
+
+    <h3>Q8.Create examples to explain async await function</h3>
+    <p>An async function is a function that is declared with the async keyword and allows the await keyword inside it. The async and await keywords allow asynchronous, promise-based behavior to be written more easily and avoid configured promise chains.
+        The async keyword may be used with any of the methods for creating a function.</p>
+    <h2>JavaScript Async</h2>
+    <p id="main"></p>
+    <p> JavaScript Await function is used to wait for the promise. It could only be used inside the async block. It instructs the code to wait until the promise returns a response. It only delays the async block.</p>
+    <h2>JavaScript await</h2>
+    <p id="m"></p>
+
+    <hr>
+
+    <h3>Q9.Create examples to explain promise.all function</h3>
+    <p> Javascript Javascript Promise.all() - The Promise.all() method in Javascript is a function which accepts many promises, and then does something only after they have all been settled. From all the promises you enter into it, it creates a new promise
+        which then waits for each promise to finish, before continuing. That ultimately means you can wait for multiple things to finish before you fire something else.</p>
+
+    <hr>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
